@@ -1,0 +1,22 @@
+{
+  "exchange": {
+    "name": "binance",
+    "api_key": "YOUR_API_KEY",
+    "secret": "YOUR_SECRET",
+    "enableRateLimit": true,
+    "options": {
+      "defaultType": "future"
+    }
+  },
+  "trading": {
+    "symbol": "BTC/USDT",
+    "timeframe": "1m",
+    "amount": 0.001,
+    "strategy": "SimpleMovingAverage"
+  },
+  "backtesting": {
+    "initial_balance": 10000,
+    "start_date": "2024-01-01",
+    "end_date": "2024-12-31"
+  }
+}
